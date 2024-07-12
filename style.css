@@ -1,0 +1,73 @@
+head {
+    font-family: "Silkscreen", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+body {
+    background-color: rgb(32, 28, 28);
+
+    font-family: "Silkscreen", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 40px;
+
+    text-align: center;
+    color: rgb(226, 223, 183);
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+  }
+
+  button:hover {
+    opacity: 0.6;
+  }
+
+  button:active {
+    background-color: var(--dark)
+  }
+
+.start {
+    font-family: "Silkscreen", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 20px;
+    color: rgb(83, 172, 60);
+    border: none;
+    appearance: none;
+    background-color: rgb(26, 22, 22);
+    cursor: pointer;
+    margin: -0.35em;
+    padding: 0.3em;
+    transition: 0.2s;
+}
+.pause {
+    font-family: "Silkscreen", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 20px;
+    color: rgb(170, 169, 169);
+    border: none;
+    appearance: none;
+    background-color: rgb(26, 22, 22);
+    cursor: pointer;
+    margin: -0.35em;
+    padding: 0.3em;
+    transition: 0.2s;
+}
+.restart {
+    font-family: "Silkscreen", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 20px;
+    color: rgb(201, 58, 58);
+    border: none;
+    appearance: none;
+    background-color: rgb(26, 22, 22);
+    cursor: pointer;
+    margin: -0.35em;
+    padding: 0.3em;
+    transition: 0.2s;
+}
